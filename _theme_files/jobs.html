@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" type="image/png" href="/favicon.ico" />
+    <title>React Jobs | Become a React Developer</title>
+  </head>
+  <body>
+    <nav class="bg-indigo-700 border-b border-indigo-500">
+      <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+        <div class="flex h-20 items-center justify-between">
+          <div
+            class="flex flex-1 items-center justify-center md:items-stretch md:justify-start"
+          >
+            <!-- Logo -->
+            <a class="flex flex-shrink-0 items-center mr-4" href="/index.html">
+              <img
+                class="h-10 w-auto"
+                src="images/logo.png"
+                alt="React Jobs"
+              />
+              <span class="hidden md:block text-white text-2xl font-bold ml-2"
+                >React Jobs</span
+              >
+            </a>
+            <div class="md:ml-auto">
+              <div class="flex space-x-2">
+                <a
+                  href="/index.html"
+                  class="text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2"
+                  >Home</a
+                >
+                <a
+                  href="/jobs.html"
+                  class="text-white bg-black hover:bg-gray-900 hover:text-white rounded-md px-3 py-2"
+                  >Jobs</a
+                >
+                <a
+                  href="/add-job.html"
+                  class="text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2"
+                  >Add Job</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Filter Jobs -->
+    <section class="bg-blue-50 py-4">
+      <div class="container mx-auto px-4">
+        <div class="relative">
+          <input
+            type="text"
+            class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:border-indigo-500"
+            placeholder="Filter jobs..."
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- All Jobs -->
+    <section class="bg-blue-50 px-4 py-10">
+      <div class="container-xl lg:container m-auto">
+        <h2 class="text-3xl font-bold text-indigo-500 mb-6 text-center">
+          Browse Jobs
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <!-- Job Listing 1 -->
+          <div class="bg-white rounded-xl shadow-md relative">
+            <div class="p-4">
+              <div class="mb-6">
+                <div class="text-gray-600 my-2">Full-Time</div>
+                 <h3 class="text-xl font-bold">Senior React Developer</h3>
+              </div>
+
+              <div class="mb-5">
+               We are seeking a talented Front-End Developer to join our team in Boston, MA. The ideal candidate will have strong skills in HTML, CSS, and JavaScript...
+              </div>
+
+              <h3 class="text-indigo-500 mb-2">$70 - $80K / Year</h3>
+
+              <div class="border border-gray-100 mb-5"></div>
+
+              <div class="flex flex-col lg:flex-row justify-between mb-4">
+                <div class="text-orange-700 mb-3">
+                  <i class="fa-solid fa-location-dot text-lg"></i>
+                  Boston, MA
+                </div>
+                <a
+                  href="job.html"
+                  class="h-[36px] bg-indigo-500 hover:bg-indigo-600 text-white px-4 py-2 rounded-lg text-center text-sm"
+                >
+                  Read More
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Job Listing 2 -->
+          <div class="bg-white rounded-xl shadow-md relative">
+            <div class="p-4">
+              <div class="mb-6">
+                <div class="text-gray-600 my-2">Remote</div>
+                 <h3 class="text-xl font-bold">Front-End Engineer (React)</h3>
+              </div>
+
+              <div class="mb-5">
+               Join our team as a Front-End Developer in sunny Miami, FL. We are looking for a motivated individual with a passion...
+              </div>
+
+              <h3 class="text-indigo-500 mb-2">$70K - $80K / Year</h3>
+
+              <div class="border border-gray-100 mb-5"></div>
+
+              <div class="flex flex-col lg:flex-row justify-between mb-4">
+                <div class="text-orange-700 mb-3">
+                  <i class="fa-solid fa-location-dot text-lg"></i>
+                  Miami, FL
+                </div>
+                <a
+                  href="job.html"
+                  class="h-[36px] bg-indigo-500 hover:bg-indigo-600 text-white px-4 py-2 rounded-lg text-center text-sm"
+                >
+                  Read More
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Job Listing 3 -->
+          <div class="bg-white rounded-xl shadow-md relative">
+            <div class="p-4">
+              <div class="mb-6">
+                <div class="text-gray-600 my-2">Remote</div>
+                <h3 class="text-xl font-bold">React.js Developer</h3>
+              </div>
+
+              <div class="mb-5">
+                Are you passionate about front-end development? Join our team in vibrant Brooklyn, NY, and work on exciting projects that make a difference...
+              </div>
+
+              <h3 class="text-indigo-500 mb-2">$70K - $80K / Year</h3>
+
+              <div class="border border-gray-100 mb-5"></div>
+
+              <div class="flex flex-col lg:flex-row justify-between mb-4">
+                <div class="text-orange-700 mb-3">
+                  <i class="fa-solid fa-location-dot text-lg"></i>
+                  Brooklyn, NY
+                </div>
+                <a
+                  href="job.html"
+                  class="h-[36px] bg-indigo-500 hover:bg-indigo-600 text-white px-4 py-2 rounded-lg text-center text-sm"
+                >
+                  Read More
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Job Listing 4 -->
+          <div class="bg-white rounded-xl shadow-md relative">
+            <div class="p-4">
+              <div class="mb-6">
+                <div class="text-gray-600 my-2">Part-Time</div>
+                <h3 class="text-xl font-bold">React Front-End Developer</h3>
+              </div>
+
+              <div class="mb-5">
+               Join our team as a Part-Time Front-End Developer in beautiful Pheonix, AZ. We are looking for a self-motivated individual with a passion...
+              </div>
+
+              <h3 class="text-indigo-500 mb-2">$60 - $70K / Year</h3>
+
+              <div class="border border-gray-100 mb-5"></div>
+
+              <div class="flex flex-col lg:flex-row justify-between mb-4">
+                <div class="text-orange-700 mb-3">
+                  <i class="fa-solid fa-location-dot text-lg"></i>
+                  Pheonix, AZ
+                </div>
+                <a
+                  href="job.html"
+                  class="h-[36px] bg-indigo-500 hover:bg-indigo-600 text-white px-4 py-2 rounded-lg text-center text-sm"
+                >
+                  Read More
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Job Listing 5 -->
+          <div class="bg-white rounded-xl shadow-md relative">
+            <div class="p-4">
+              <div class="mb-6">
+                <div class="text-gray-600 my-2">Full-Time</div>
+                <h3 class="text-xl font-bold">Full Stack React Developer</h3>
+              </div>
+
+              <div class="mb-5">
+               Exciting opportunity for a Full-Time Front-End Developer in bustling Atlanta, GA. We are seeking a talented individual...
+              </div>
+
+              <h3 class="text-indigo-500 mb-2">$90K - $100K / Year</h3>
+
+              <div class="border border-gray-100 mb-5"></div>
+
+              <div class="flex flex-col lg:flex-row justify-between mb-4">
+                <div class="text-orange-700 mb-3">
+                  <i class="fa-solid fa-location-dot text-lg"></i>
+                  Miami, FL
+                </div>
+                <a
+                  href="job.html"
+                  class="h-[36px] bg-indigo-500 hover:bg-indigo-600 text-white px-4 py-2 rounded-lg text-center text-sm"
+                >
+                  Read More
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Job Listing 6 -->
+          <div class="bg-white rounded-xl shadow-md relative">
+            <div class="p-4">
+              <div class="mb-6">
+                <div class="text-gray-600 my-2">Remote</div>
+                <h3 class="text-xl font-bold">React Native Developer</h3>
+              </div>
+
+              <div class="mb-5">
+               Join our team as a Front-End Developer in beautiful Portland, OR. We are looking for a skilled and enthusiastic individual...
+              </div>
+
+              <h3 class="text-indigo-500 mb-2">$100K - $110K / Year</h3>
+
+              <div class="border border-gray-100 mb-5"></div>
+
+              <div class="flex flex-col lg:flex-row justify-between mb-4">
+                <div class="text-orange-700 mb-3">
+                  <i class="fa-solid fa-location-dot text-lg"></i>
+                  Brooklyn, NY
+                </div>
+                <a
+                  href="job.html"
+                  class="h-[36px] bg-indigo-500 hover:bg-indigo-600 text-white px-4 py-2 rounded-lg text-center text-sm"
+                >
+                  Read More
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
